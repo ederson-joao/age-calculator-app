@@ -1,38 +1,155 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  background-color: #FFFFFF;
+  width: 100%;
+  margin: 0 10px 0 10px;
+  padding-bottom: 38px;
+  border-radius: 20px;
+  border-bottom-right-radius: 118px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputDates {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+  margin: 0 20px 0 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputDates div {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+input {
+  font-family: 'PoppinsExtraBold';
+  font-size: 20px;
+  width: 75px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 0.5px solid #f0f0f0;
+  outline: none;
+  letter-spacing: 2px;
+  caret-color: #864dfe;
+}
+
+input:focus {
+  border: 0.5px solid #864dfe;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.description {
+  font-family: 'PoppinsBold';
+  margin: 50px 0 0 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #656565
+}
+
+.error {
+  font-size: 12px;
+  color: #e2575d;
+  font-family: 'PoppinsItalic';
+  margin: 5px 0;
+}
+
+hr {
+  position: relative;
+  top: 55px;
+  border: none;
+  width: 90%;
+  height: 3px;
+  background-color: #f0f0f0;
+}
+
+.Btn {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px 0 0 0;
 }
 
-.App-link {
-  color: #61dafb;
+.calculateBtn {
+  z-index: 1;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #864dfe;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calculateBtn:hover {
+  background-color: #141414; 
+}
+
+.calculateBtn img {
+  width: 50%;
+}
+
+.result {
+  margin: 0 0 0 25px;
+}
+
+.result h1 {
+  font-family: 'PoppinsExtraBoldItalic';
+  font-size: 60px;
+  line-height: 68px;
+  margin: 0;
+}
+
+.result span {
+  color: #864dfe;
+}
+
+@media screen and (min-width: 651px) {
+.content {
+  width: 611px;
+}
+.input {
+  font-size: 27px;
+  width: 100px;
+}
+
+.inputDates {
+  justify-content: flex-start;
+  margin: 0 50px 0 50px;
+}
+
+.inputDates div {
+  margin-right: 21px;
+}
+
+.Btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.calculateBtn {
+  margin-right: 47px;
+}
+
+hr {
+  width: 85%;
+}
+
+.result {
+  margin: 0 0 0 50px;
+}
+
+.result h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
 }
