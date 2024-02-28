@@ -8,3 +8,8 @@ Projeto desenvolvido com base no design disponibilizado no desafio do site Front
 * React
 
 # :gear: Testes
+
+https://github.com/ederson-joao/age-calculator-app/assets/111246046/a332891b-de2e-42b1-b3d5-e4c350a1bbf2
+
+https://github.com/ederson-joao/age-calculator-app/assets/111246046/0128b05b-311d-4a90-a38b-e812289a2d05
+
