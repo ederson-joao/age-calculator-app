@@ -27,6 +27,15 @@ Para começar a usar o Age Calculator App, siga estas etapas:
 3. Execute o comando abaixo:
 * npm start
 
+# Licença
+Este projeto está licenciado sob a MIT License.
+
+# Contatos
+Para dúvidas ou mais informações, você pode me encontrar nas seguintes plataformas:
+
+* LinkedIn: https://www.linkedin.com/in/ederson-joao/
+* Email: ederson.joao@outlook.com
+
 # :gear: Testes
 
 https://github.com/ederson-joao/age-calculator-app/assets/111246046/a332891b-de2e-42b1-b3d5-e4c350a1bbf2
