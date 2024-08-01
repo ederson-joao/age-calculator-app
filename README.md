@@ -24,7 +24,10 @@ Para começar a usar o Age Calculator App, siga estas etapas:
 2. Navegue até o Diretório do Projeto
 * cd age-calculator-app
 
-3. Execute o comando abaixo:
+3. Instale dependências do projeto
+* npm i
+
+4. Execute o comando abaixo:
 * npm start
 
 # Licença
